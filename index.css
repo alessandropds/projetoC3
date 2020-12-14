@@ -1,0 +1,46 @@
+*{font-family: 'Montserrat', sans-serif;}
+form{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin:20px 0;
+}
+h2, span{
+  width: 100%;
+  text-align: center;
+  color: #3098A1;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+span{
+  display: block;
+  text-transform: none;
+}
+input{
+  width: 100%;
+  color: #3098A1;
+  font-size: 15px;
+  border: none;
+  background: white;
+  border-bottom: 1px solid #68B3AF;
+  margin: 10px 10px 0 0;
+}
+input:focus{outline: none;}
+input[type=submit]{
+  background: #3098A1;
+  color: white;
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+input[type=submit]:hover{
+  background: white;
+  border: none;
+  color: #3098A1;
+  transform: scale(1.2);
+}
+#mapa {
+  width: 100%;
+  height: 700px;
+}
